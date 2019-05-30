@@ -159,5 +159,5 @@ final_image = data_to_chars_dithered(data2d, charset)
 # output_2d_img(list_to_2d(image_simple, im.height, im.width), '')
 # list_char_freqs(final_image)
 
-# output_2d_img(final_image, '')
-pr_red("test")
+output_2d_img(final_image, '')
+# pr_red("test")
