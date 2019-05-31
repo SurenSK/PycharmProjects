@@ -3,21 +3,6 @@ import math
 from PIL import Image
 import bisect
 
-# RobertHeaton chars = " .\'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
-chars = " `^\",:;I!li~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*MW&8%B@$#"
-# chars2 is ordered by measured character brightness
-# chars2_vals is the average brightness of regions composed solely of this character
-# measured with photoshop, size 8 characters, pure black background, pure white text
-chars2_chars = "  `^:,~-;!|*)(_\\/\"{}[?+]vi1clr0o&jutIJzxYCwa8L$nZkOhfbdXUqp%mQ@#BMW"
-chars2_lums = [0, 5, 11, 11, 12, 14, 14, 16, 16, 16, 16, 17, 17, 18, 20,
-               20, 20, 21, 21, 22, 23, 24, 25, 25, 25, 27, 27, 28,
-               29, 30, 30, 31, 31, 32, 32, 33, 34, 34, 35, 36, 36,
-               36, 36, 36, 36, 37, 37, 39, 39, 39, 40, 40, 41, 41,
-               42, 43, 43, 46, 46, 46, 47, 49, 53, 54, 54, 55, 57]
-charset2 = (chars2_chars, chars2_lums)
-chars2_reversed = "WM#B@Qm%pqUXdbfhOkZn$L8awCYxzJItuj&o0rlc1iv]+?[}{\"/\\_()*|!;-~,:^`. "
-# chars3 is order by measured brightness without characters of equal brightness
-# chars3_chars = "  `'^,~*)/{}[?+iclr&utIzx$knhbdXqmQ@BMW"
 chars3_chars = " `'^,~*)/{}[?+iclr&utIzx$knhbdXqmQ#BMW"
 chars3_lums = [3, 8, 9, 11, 12, 14, 16, 17, 20, 21, 22, 23, 24, 25,
                27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39,
@@ -141,9 +126,6 @@ def list_char_freqs(array: list) -> None:
         print(c+c, sum(row.count(c+c) for row in array))
 
 
-def pr_red(skk): print("\033[91m {}\033[00m" .format(skk))
-
-
 img_path = "face3.jpg"
 charset = charset3
 invert_img = False
@@ -155,10 +137,4 @@ lumData = raw_to_luminance(rawData, invert_img, use_alpha, luminance_mode)
 data2d = list_to_2d(lumData, im.height, im.width)
 final_image = data_to_chars_dithered(data2d, charset)
 
-# image_simple = data_to_chars_simple(lumData, charset)
-# output_2d_img(list_to_2d(image_simple, im.height, im.width), '')
-# list_char_freqs(final_image)
-
 output_2d_img(final_image, '')
-# pr_red("test")
-# test commit
