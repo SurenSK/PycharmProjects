@@ -161,3 +161,4 @@ final_image = data_to_chars_dithered(data2d, charset)
 
 output_2d_img(final_image, '')
 # pr_red("test")
+# test commit
