@@ -3,11 +3,11 @@ import bisect
 
 
 class AsciiConverter:
-    char_glyphs = " `'^,~*)/{}[?+iclr&utIzx$knhbdXqmQ#BMW"
-    char_lumens = [3, 8, 9, 11, 12, 14, 16, 17, 20, 21, 22, 23, 24, 25,
-                   27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39,
-                   39, 40, 41, 42, 43, 46, 47, 49, 53, 54, 55, 57]
-    default_charset = (char_glyphs, char_lumens)
+    glyphs = " `'^,~*)/{}[?+iclr&utIzx$knhbdXqmQ#BMW"
+    lumens = [3, 8, 9, 11, 12, 14, 16, 17, 20, 21, 22, 23, 24, 25,
+              27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39,
+              39, 40, 41, 42, 43, 46, 47, 49, 53, 54, 55, 57]
+    default_charset = (glyphs, lumens)
 
     def __init__(self, path: str):
         self.im = Image.open(path)
