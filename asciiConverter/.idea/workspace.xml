@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa70e4e-5d89-4b1a-949e-2f552387d6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/asciiConverter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../asciiConverter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../asciiConverter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../asciiConverter/asciiConverter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../asciiConverter/AsciiConverter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +17,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/asciiConverter.py">
+        <entry file="file://$PROJECT_DIR$/../asciiConverter/AsciiConverter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="238">
+              <caret line="77" column="68" lean-forward="true" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +51,8 @@
       <find>'</find>
       <find>W</find>
       <find>charset</find>
+      <find>i</find>
+      <find>global</find>
     </findStrings>
     <replaceStrings>
       <replace>rgbPixel</replace>
@@ -71,6 +71,8 @@
         <option value="$PROJECT_DIR$/testFile.py" />
         <option value="$PROJECT_DIR$/venv/test2.py" />
         <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/../asciiConverter/asciiConverter.py" />
+        <option value="$PROJECT_DIR$/../asciiConverter/AsciiConverter.py" />
       </list>
     </option>
   </component>
@@ -91,8 +93,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="asciiConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asciiConverter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="asciiConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asciiConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test2 (1)">
+  <component name="RunManager" selected="Python.asciiConverter">
     <configuration name="Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="asciiConverter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +159,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asciiConverter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="asciiConverter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../asciiConverter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\kumar\PycharmProjects\PycharmProjects\asciiConverter\AsciiConverter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,6 +340,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.asciiConverter" />
         <item itemvalue="Python.test2 (1)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.testFile" />
@@ -337,18 +366,39 @@
       <option name="project" value="LOCAL" />
       <updated>1559344059430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test commit from pycharm">
+      <created>1559344282682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559344282682</updated>
+    </task>
+    <task id="LOCAL-00003" summary="renaming">
+      <created>1559344352396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559344352396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="renaming">
+      <created>1559344429519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559344429519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24868283" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4947313" weight="0.32827735" />
       <window_info anchor="bottom" x="1928" y="31" width="1667" height="1001" id="Run" maximized="true" order="2" type="WINDOWED" weight="0.6641387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -356,7 +406,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" x="11" y="368" width="1898" height="304" id="Terminal" order="8" weight="0.2751896" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5052687" side_tool="true" visible="true" weight="0.34127843" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32822758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -364,14 +414,16 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test commit from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit from pycharm" />
+    <MESSAGE value="renaming" />
+    <option name="LAST_COMMIT_MESSAGE" value="renaming" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ascii-pineapple.jpg">
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/ascii-pineapple.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/venv/Lib/site-packages/PIL/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -388,7 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py">
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/venv/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
@@ -406,18 +458,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/test2.py" />
-    <entry file="file://$PROJECT_DIR$/face.jpg">
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/face.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/face.png">
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/face.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/asciiConverter.py">
+    <entry file="file://$PROJECT_DIR$/../../test1/venv/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="194">
+          <caret line="2655" selection-start-line="2655" selection-end-line="2655" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../asciiConverter/AsciiConverter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="77" column="68" lean-forward="true" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
